@@ -3,6 +3,8 @@
 
 #JUMP#
 .settings
+bin
+target
 #.library
 #.project
 
