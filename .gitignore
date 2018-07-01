@@ -1,0 +1,19 @@
+#git*
+!.gitignore
+
+#JUMP#
+.settings
+#.library
+#.project
+
+#Java#
+.class
+/**/.classpath
+
+#note#
+*.bak
+
+# Windows#
+.db
+.ini
+
