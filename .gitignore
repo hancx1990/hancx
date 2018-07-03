@@ -23,6 +23,10 @@ target
 .idea
 venv
 
+# springboot #
+.metadata
+RemoteSystemsTempFiles
+
 
 
 
