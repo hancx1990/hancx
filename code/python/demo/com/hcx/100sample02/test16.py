@@ -1,0 +1,17 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+"""
+题目：输出指定格式的日期
+"""
+import datetime
+
+if __name__ == '__main__':
+    print(datetime.date.today().strftime('%d/%m/%Y'))
+    miyazakiBirthDate = datetime.date(1941, 1, 5)
+    print(miyazakiBirthDate.strftime('%d/%m/%Y'))
+
+    miyazakiBirthDextDate = miyazakiBirthDate + datetime.timedelta(days=1)
+    print(miyazakiBirthDextDate.strftime('%d/%m/%Y'))
+
+    miyazakiFirstBirthday = miyazakiBirthDate.replace(year=miyazakiBirthDate.year + 1)
+    print(miyazakiFirstBirthday.strftime('%d/%m/%Y'))
